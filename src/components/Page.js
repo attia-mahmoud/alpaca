@@ -18,7 +18,7 @@ const Page = () => {
   });
 
   return (
-    <Flex direction={['column', 'row']}>
+    <Flex direction={['column', 'column', 'column', 'column', 'row']}>
       <Preview state={state} />
       <Options state={state} />
     </Flex>

@@ -3,8 +3,8 @@ import { Flex, Text } from '@chakra-ui/layout';
 
 const Header = () => {
   return (
-    <Flex justify="center" alignItems="center" m="1">
-      <Text fontSize="4xl">Alpaca Avatar Generator</Text>
+    <Flex justify="center" alignItems="center" mb="5">
+      <Text fontSize="4xl">Alpaca Avatar Generator </Text>
     </Flex>
   );
 };
